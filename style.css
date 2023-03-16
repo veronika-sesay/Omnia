@@ -1,0 +1,28 @@
+.omnia {
+  position: relative;
+  display: block;
+}
+
+.video {
+  display: block;
+  margin: auto;
+}
+
+.popup {
+  visibility: hidden;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  display: block;
+  min-height: max-content;
+  max-width: 30%;
+  padding: 2%;
+  background-color: green;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  color: white;
+}
+
+.showtext {
+  visibility: visible;
+}
